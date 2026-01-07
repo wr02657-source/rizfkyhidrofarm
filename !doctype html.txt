@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rizky Hydrofarm | Pertanian Hidroponik Modern</title>
+  <meta name="description" content="Rizky Hydrofarm adalah usaha pertanian hidroponik yang menyediakan sayuran segar, sehat, dan berkualitas tinggi." />
+  <meta name="keywords" content="hidroponik, sayuran hidroponik, rizky hydrofarm, pertanian modern" />
+  <meta name="theme-color" content="#2E7D32" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --green-700:#2E7D32;
+      --green-400:#66BB6A;
+      --bg:#ffffff;
+      --muted:#f5f9f6;
+      --text:#333;
+      --radius:14px;
+      --container:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    a{color:inherit}
+    .skip-link{
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow:hidden;
+    }
+    .skip-link:focus{
+      left:10px;
+      top:10px;
+      width:auto;
+      height:auto;
+      padding:8px 12px;
+      background:#000;
+      color:#fff;
+      border-radius:6px;
+      z-index:1000;
+    }
+
+    header{
+      background: linear-gradient(135deg,var(--green-700),var(--green-400));
+      color:#fff;
+      padding: clamp(40px, 8vw, 100px) 20px;
+      text-align:center;
+    }
+    header h1{font-size:clamp(1.6rem,4vw,2.6rem); margin-bottom:10px}
+    header p{font-size:clamp(0.95rem,2.2vw,1.1rem)}
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 28px;
+      background:#fff;
+      color:var(--green-700);
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:600;
+    }
+
+    main{padding:40px 20px; max-width:var(--container); margin:0 auto}
+    h2{color:var(--green-700); text-align:center; margin-bottom:24px}
+    .grid{display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(220px,1fr))}
+    .card{
+      background:#fff;
+      border-radius:var(--radius);
+      padding:18px;
+      text-align:center;
+      box-shadow:0 8px 18px rgba(0,0,0,0.06);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      min-height:150px;
+    }
+    .card img{width:100%; height:160px; object-fit:cover; border-radius:10px}
+    .highlight{background:var(--muted); border-radius:16px; padding:28px}
+    .contact{text-align:center}
+
+    iframe{width:100%; height:320px; border:0; border-radius:12px; margin-top:16px}
+
+    footer{background:var(--green-700); color:#fff; text-align:center; padding:24px 15px}
+
+    /* responsive tweaks */
+    @media (max-width:420px){
+      .card img{height:140px}
+      header{padding:32px 12px}
+    }
+  </style>
+
+  <!-- Structured data (telephone updated) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Rizky Hydrofarm",
+    "description": "Usaha pertanian hidroponik yang menyediakan sayuran segar, sehat, dan berkualitas tinggi.",
+    "telephone": "+62895380218338",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ID"
+    },
+    "url": ""
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <header role="banner" aria-label="Header Rizky Hydrofarm">
+    <h1>Rizky Hydrofarm</h1>
+    <p>Pertanian Hidroponik Modern • Segar • Sehat • Ramah Lingkungan</p>
+    <a href="#produk" class="btn">Lihat Produk</a>
+  </header>
+
+  <main id="main" role="main">
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">Tentang Kami</h2>
+      <p style="max-width:850px; margin:0 auto; text-align:center;">
+        Rizky Hydrofarm adalah usaha pertanian hidroponik yang fokus pada budidaya sayuran segar dan sehat tanpa pestisida berbahaya. Kami mengadopsi sistem pertanian modern yang efisien, ramah lingkungan, dan berkelanjutan untuk memenuhi kebutuhan pangan berkualitas.
+      </p>
+    </section>
+
+    <section id="produk" class="highlight" aria-labelledby="produk-heading">
+      <h2 id="produk-heading">Produk Unggulan</h2>
+      <div class="grid" role="list">
+        <article class="card" role="listitem" aria-label="Selada Hidroponik">
+          <img src="https://via.placeholder.com/800x600?text=Selada" alt="Selada hidroponik segar" loading="lazy">
+          <h3>Selada Hidroponik</h3>
+          <p>Segar, renyah, dan kaya nutrisi.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-label="Pakcoy">
+          <img src="https://via.placeholder.com/800x600?text=Pakcoy" alt="Pakcoy hidroponik" loading="lazy">
+          <h3>Pakcoy</h3>
+          <p>Sayuran hijau sehat untuk menu harian.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-label="Kangkung">
+          <img src="https://via.placeholder.com/800x600?text=Kangkung" alt="Kangkung hidroponik" loading="lazy">
+          <h3>Kangkung Hidroponik</h3>
+          <p>Bersih, bebas tanah, dan siap masak.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-label="Bayam">
+          <img src="https://via.placeholder.com/800x600?text=Bayam" alt="Bayam hidroponik" loading="lazy">
+          <h3>Bayam Hijau</h3>
+          <p>Kaya zat besi dan vitamin.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="keunggulan-heading" style="margin-top:28px">
+      <h2 id="keunggulan-heading">Keunggulan Kami</h2>
+      <div class="grid" aria-hidden="false">
+        <div class="card">🌱 Tanpa Pestisida Berbahaya</div>
+        <div class="card">💧 Hemat Air & Ramah Lingkungan</div>
+        <div class="card">🥬 Sayuran Segar Setiap Panen</div>
+        <div class="card">⚙️ Teknologi Hidroponik Modern</div>
+      </div>
+    </section>
+
+    <section class="highlight" aria-labelledby="edukasi-heading" style="margin-top:28px">
+      <h2 id="edukasi-heading">Edukasi Hidroponik</h2>
+      <div class="grid">
+        <div class="card">Pengenalan sistem hidroponik</div>
+        <div class="card">Manfaat sayuran hidroponik</div>
+        <div class="card">Tips menanam di rumah</div>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="kontak-heading" style="margin-top:28px">
+      <h2 id="kontak-heading">Kontak & Pemesanan</h2>
+      <p>Hubungi kami untuk pemesanan sayuran segar hidroponik</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/62895380218338?text=Halo%20Rizky%20Hydrofarm%2C%20saya%20ingin%20memesan%20sayuran.%20Boleh%20dibantu%3F" aria-label="Pesan via WhatsApp">+62 895-3802-18338</a></p>
+      <p><strong>Telepon:</strong> <a href="tel:+62895380218338">+62 895-3802-18338</a></p>
+      <p><a class="btn" href="https://wa.me/62895380218338?text=Halo%20Rizky%20Hydrofarm%2C%20saya%20ingin%20memesan%20sayuran.%20Boleh%20dibantu%3F" aria-label="Pesan via WhatsApp">Pesan via WhatsApp</a></p>
+
+      <div aria-hidden="false" style="max-width:900px; margin:18px auto 0;">
+        <iframe title="Lokasi Rizky Hydrofarm" src="https://www.google.com/maps?q=Indonesia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <h3>Rizky Hydrofarm</h3>
+    <p>Pertanian Hidroponik untuk Masa Depan</p>
+    <p>© 2025 Rizky Hydrofarm</p>
+  </footer>
+</body>
+</html>
